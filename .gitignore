@@ -1,0 +1,20 @@
+# --- Secrets and personal data: NEVER commit these ---
+profiles.key
+*.key
+profiles.db
+*.db
+*.sqlite
+*.sqlite3
+test_images/
+Buletin*.jpg
+
+# --- Large generated model (recreate with models/export_model.py) ---
+*.onnx
+
+# --- Python / tooling ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/

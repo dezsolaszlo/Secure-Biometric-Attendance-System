@@ -1,0 +1,14 @@
+# Runtime
+PyQt6>=6.6.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+onnxruntime>=1.17.0
+pytesseract>=0.3.10
+pyzbar>=0.1.9
+Pillow>=10.0.0
+cryptography>=42.0.0
+
+# Only needed once, to generate models/facenet512.onnx (python models/export_model.py)
+tensorflow>=2.15.0
+tf2onnx>=1.16.0
+deepface>=0.0.90
